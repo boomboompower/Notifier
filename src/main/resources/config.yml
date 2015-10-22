@@ -1,0 +1,8 @@
+# This plugin is for I3lizzard_I3east, made by boomboompower #
+# Change the booleans below to change what the plugin does   #
+
+# Plays a sound to player mentioned
+Sound: false
+
+# Plays a particle to player mentioned
+Particle: false
