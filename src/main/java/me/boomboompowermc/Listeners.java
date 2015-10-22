@@ -18,10 +18,8 @@ public class Listeners extends JavaPlugin implements Listener {
 	public Listeners(Notifier t) {
 		plugin = t;   
 	}  
-	@SuppressWarnings("deprecation")
 	@EventHandler 
 	public void ChatEvent(AsyncPlayerChatEvent e) { 
-		Player pl = e.getPlayer();
 		Player[] arrayOfPlayer;
 		
 		// Erroring Code Is Below
