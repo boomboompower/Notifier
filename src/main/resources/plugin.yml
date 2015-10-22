@@ -1,0 +1,7 @@
+name: Notify
+version: 1.0
+main: me.boomboompowermc.Notifier
+author: boomboompower
+description: Notifications on chat
+load: STARTUP
+website: boomboompower.weebly.com
