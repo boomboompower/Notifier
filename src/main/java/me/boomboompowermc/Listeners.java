@@ -23,9 +23,11 @@ public class Listeners extends JavaPlugin implements Listener {
 	public void ChatEvent(AsyncPlayerChatEvent e) { 
 		Player pl = e.getPlayer();
 		Player[] arrayOfPlayer;
-		// Error is below
+		
+		// Erroring Code Is Below
 		int j = (arrayOfPlayer = Bukkit.getOnlinePlayers()).length; 
-		// Error is above
+		
+		// Code below working.
 		for (int i = 0; i < j; i++) { 
 			Player p = arrayOfPlayer[i]; 
 			if (e.getMessage().contains(p.getName())) { 
